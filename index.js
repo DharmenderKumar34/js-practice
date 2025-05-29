@@ -308,14 +308,14 @@
 // sum(220,30);
 // sum(220,330);
 
-function sum(a,b){
-    //   var a=10,b=20;
-    //  
-   console.log( a+b);
+// function sum(a,b){
+//     //   var a=10,b=20;
+//     //  
+//    console.log( a+b);
    
-}
+// }
 // sum(220,30);
-var funexp=sum(20,30);
+// var funexp=sum(20,30);
 // funexp;
 // var sum=funexp(75,35);
 // var sum1=funexp(85,35);
