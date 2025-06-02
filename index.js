@@ -308,24 +308,28 @@
 // sum(220,30);
 // sum(220,330);
 
+//function expression
+// let a=10,b=25;
 // function sum(a,b){
-//     //   var a=10,b=20;
-//     //  
-//    console.log( a+b);
-   
+//     // console.log( a+b);
+//     return a+b;
 // }
-// sum(220,30);
-// var funexp=sum(20,30);
-// funexp;
-// var sum=funexp(75,35);
+// var funexp=sum(a,b);
+// console.log(funexp);
+ 
+//  console.log('the sum of two num='+sum(10,25));
+
+// Anonymous function (without function name,use the function keyword on the function name )
+
+ var funexp=function(a,b){
+    return total=a+b;
+}
+console.log(funexp(30,30));
+// // var sum=funexp(2,30);
+// // console.log(sum);
+// var sum=funexp(85,35);
 // var sum1=funexp(85,35);
-// console.log(sum<sum1);
-// // console.log('the sum of two num='+sum);
-//  var funexp=function(a,b){
-//     return total=a*b;
-// }
-// var sum=funexp(2,30);
-// console.log(sum);
+// console.log(sum<=sum1);
 
 // function tocelsius(fahrneheit){
 //     return (5/9) * (fahrenheit-32);
