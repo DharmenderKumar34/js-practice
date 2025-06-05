@@ -1,6 +1,6 @@
 // Array 
 let fruits = ["apple", "banana", "mango"];
-console.log(fruits);
+console.log(fruits.length);
 console.log(fruits[0]);
 
 const a = [1, 2];
@@ -17,3 +17,9 @@ function arraysEqual(arr1, arr2) {
 const x = [1, 2, 3];
 const y = [1, 2, 3];
 console.log(arraysEqual(x, y)); // true
+
+//find length
+let arr=[1,2,3,4,5,a,6,7]
+console.log(arr.length);
+
+
