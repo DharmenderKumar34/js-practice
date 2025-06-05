@@ -22,8 +22,8 @@ add1(220,30);
 add1(220,330);
 
 
-// function tocelsius(fahrneheit){
-//     return (5/9) * (fahrenheit-32);
-// }
-// var ser(33);
-// console.log(ser);
+function tocelsius(fahrenheit){
+    return (5/9) * (fahrenheit-32);
+}
+var ser=tocelsius(32);
+console.log(ser);
