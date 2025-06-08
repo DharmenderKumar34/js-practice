@@ -1,4 +1,4 @@
-// Array 
+// Array
 let fruits = ["apple", "banana", "mango"];
 console.log(fruits.length);
 console.log(fruits[0]);
@@ -19,7 +19,5 @@ const y = [1, 2, 3];
 console.log(arraysEqual(x, y)); // true
 
 //find length
-let arr=[1,2,3,4,5,a,6,7]
+let arr = [1, 2, 3, 4, 5, a, 6, 7];
 console.log(arr.length);
-
-
