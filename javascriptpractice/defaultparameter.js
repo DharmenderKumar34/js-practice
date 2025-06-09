@@ -1,17 +1,15 @@
 ////default parameters
-function str(name='dk',age=21){
-    console.log(`hello ${name},${age}`);
-
+function str(name = "dk", age = 21) {
+  console.log(`hello ${name},${age}`);
 }
-str('alice',24);
-str('aseem');
+str("alice", 24);
+str("aseem");
 
-function str1({name='dk',age=21}= {}){
-    console.log(`hello ${name},${age}`);
-
+function str1({ name = "dk", age = 21 } = {}) {
+  console.log(`hello ${name},${age}`);
 }
-str1({name:'alice',age:24});
-str1({age:30});
+str1({ name: "alice", age: 24 });
+str1({ age: 30 });
 
 //second example of default parameters
 function print({ name = "Unknown", age = 0 } = {}) {

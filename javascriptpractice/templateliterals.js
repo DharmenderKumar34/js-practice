@@ -1,8 +1,7 @@
-
 //template literals
 //1. string interpolation
 const name = "Alice";
-const greeting = `Hello, ${name}!`; 
+const greeting = `Hello, ${name}!`;
 console.log(greeting); // "Hello, Alice!"
 
 //2.multiline string
