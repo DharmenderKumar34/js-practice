@@ -108,4 +108,19 @@ const fruits=["banana","orange","apple","mango"]
     // fruits.sort();
     console.log(fruits);
 
-  
+//what is the output of this program
+
+//  const firstname = fun();
+//  let name = 'vivek'                 //refrence error because fun calling before the let declare
+//  function fun(){
+//  return `my is ${name} malviya`
+//  }
+//  console.log(firstname);
+
+let name = 'vivek'                 
+ const firstname = fun();
+ 
+ function fun(){
+ return `my name is ${name} malviya`
+ }
+ console.log(firstname);
