@@ -83,36 +83,33 @@ console.log(Bio[1]);
 
 ////other usefull method
 //toUppercase  (for change all string in uppercase)
-let a="hello mr. dharmender kumar"
+let a = "hello mr. dharmender kumar";
 console.log(a.toUpperCase());
 
 //toUppercase  (for change all string in uppercase)
-let A="HELLO WORLD"
+let A = "HELLO WORLD";
 console.log(A.toLowerCase());
 
 //concat()
-let b="Dharmender"
-let B="kumar"
-console.log(b+B);
+let b = "Dharmender";
+let B = "kumar";
+console.log(b + B);
 console.log(b.concat(B));
-console.log(b.concat(" "+ B));
+console.log(b.concat(" " + B));
 console.log(`${b} ${B}`);
 
 //trim()
-let STR="          hallo world            "
+let STR = "          hallo world            ";
 console.log(STR);
 
 console.log(STR.trim());
 
 //convert string to an array
 //split()
-let c="a,b ,c,d ,e,f"             //string
+let c = "a,b ,c,d ,e,f"; //string
 console.log(c.split(","));
 console.log(c.split(" "));
 console.log(c.split("|"));
-
-
-
 
 //interview question merged two string alternativly
 // let str1='krishna';

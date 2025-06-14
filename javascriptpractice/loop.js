@@ -1,27 +1,24 @@
 //while loop
-var a=0;
+var a = 0;
 
-while(a<=10){
-    console.log(a);
-    a++;
+while (a <= 10) {
+  console.log(a);
+  a++;
 }
 
 //do-while loop
-var a=0;
-do{
-    console.log(a);
-    a++;
-}
-while(a<=10);
+var a = 0;
+do {
+  console.log(a);
+  a++;
+} while (a <= 10);
 
 //for loop
- 
-for(var a=0; a<=10;a++){
-    console.log(a);
-    
+
+for (var a = 0; a <= 10; a++) {
+  console.log(a);
 }
 
- 
 // for-in
 const person = { name: "John", age: 30 };
 
@@ -30,8 +27,8 @@ for (let a in person) {
 }
 
 const fruit = ["apple", "banana", "mango"];
-for(let a in fruit){
-    console.log(a, fruit[a]);
+for (let a in fruit) {
+  console.log(a, fruit[a]);
 }
 
 //for-of
