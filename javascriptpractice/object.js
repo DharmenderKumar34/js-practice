@@ -1,18 +1,45 @@
-// return obj with double value {x:20,y:40}
-let obj = { x: 10, y: 20 };
+// 1st way
+let obj = {
+  myname: "dk",
+  myage: 20,
+  getData: function () {
+    console.log(obj.myname, obj.myage);
+  },
+};
+obj.getData(); //dk 20
 
-for (let a in obj) {
-  obj[a] = obj[a] * 2;
+// 2nd way
+let obj1 = {
+  myname: "dk",
+  myage: 20,
+  getData() {
+    console.log(obj1.myname, obj.myage);
+  },
+};
+obj1.getData(); //dk 20
+
+//3rd way
+let Obj = {
+  myname: {
+    name: "vinod",
+    cname: "thapa",
+  },
+  myage: 20,
+  getData() {
+    console.log(Obj.myname.name);
+  },
+};
+Obj.getData(); //vinod
+
+//what is the output of this
+// function myname(){
+//     console.log(this);
+// }
+// myname();
+
+//what is the output of this
+let Name = "vinod";
+function myName() {
+  console.log(this.Name);
 }
-console.log(obj);
-
-//return ne array with obj value like [10,20]
-
-let obj1 = { x: 10, y: 20 };
-let b = [];
-for (let a in obj1) {
-  console.log(obj1[a]);
-  b.push(obj1[a]);
-}
-console.log(Object.values(obj1));
-console.log(b);
+myName();
