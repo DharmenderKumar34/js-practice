@@ -29,3 +29,7 @@ let{Fname,Lname,Age}=obj;
 console.log(Fname);
 console.log(Lname);
 console.log(Age);
+
+
+
+
