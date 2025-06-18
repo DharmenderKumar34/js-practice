@@ -43,3 +43,5 @@ function myName() {
   console.log(this.Name);
 }
 myName();
+
+// 3rd way to write this
